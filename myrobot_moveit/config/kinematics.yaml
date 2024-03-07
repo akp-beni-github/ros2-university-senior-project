@@ -1,0 +1,11 @@
+arm:
+    kinematics_solver: pick_ik/PickIkPlugin
+    kinematics_solver_timeout: 0.05
+    kinematics_solver_attempts: 3
+    mode: local
+
+    position_threshold: 0.02
+    orientation_threshold: 0.05
+    cost_threshold: 0.001
+   
+   
